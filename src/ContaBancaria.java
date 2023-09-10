@@ -4,7 +4,7 @@ public class ContaBancaria {
         String agencia = args [2];
         String nomeCliente = args [0];
         String sobrenomeCliente = args [1];
-        double saldo = Integer.valueOf(args [4]);
+        double saldo = Double.valueOf(args [4]);
 
         System.out.println("Olá " + nomeCliente + " " + sobrenomeCliente + 
         ", seja bem-vindo ao nosso banco. Sua agência é " + agencia + 
